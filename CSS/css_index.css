@@ -40,6 +40,7 @@ header, main, footer {
   display: flex; 
   align-items: center; 
   justify-content: space-around;
+  margin-top: 2.5vh;
 }
 
 .header h4 {
@@ -102,8 +103,9 @@ header, main, footer {
 }
 
 .descrizione h4 {
-  
+  color: grey;
   line-height: 150%;
+  margin-bottom: 10vh;
 }
 
 .button_chiSiamo {
