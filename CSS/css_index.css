@@ -58,6 +58,7 @@ header, main, footer {
   display: flex; 
   align-items: center; 
   justify-content: space-around;
+  margin-top: 2.5vh;
 }
 
 .foto_index {
@@ -67,4 +68,65 @@ header, main, footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 2.5vh;
 }  
+
+.dati {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.dati div {
+
+  text-align: center;
+}
+
+.dati h1 {
+
+  color: #e2457c;
+}
+
+.descrizione_rotaract {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.descrizione {
+  
+  width: 35vh;
+  height: 40vh;
+}
+
+.descrizione h4 {
+  
+  line-height: 150%;
+}
+
+.button_chiSiamo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 5vh;
+  background-color: #e2457c;
+  cursor: pointer;
+}
+
+.button_chiSiamo p {
+
+  color: white;
+}
+
+.foto_buonconsiglio {
+  width: 70vh;
+  height: 80vh;
+  background-image: url("../Media/FotoBuonconsiglio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
