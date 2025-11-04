@@ -180,3 +180,26 @@ header, main, footer {
   justify-content: space-around;
 }
 
+
+/*progetti */
+
+
+
+
+.link-card {
+    color: #0078D4;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.link-card:hover {
+    color: #00457C;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+
+
+
+
+

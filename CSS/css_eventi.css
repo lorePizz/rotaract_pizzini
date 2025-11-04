@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+a {
+  all: unset;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+.header {
+  height: 10vh; 
+  width: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+}
+
+.header h4 {
+  margin: 0;
+  cursor: pointer;
+  color: grey;
+}
+
+.header div {
+  margin-left: 2vw;
+}
+
+.footer {
+  height: 10vh; 
+  width: 50vw; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  margin-top: 2.5vh;
+}
+
+.foto_index {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../Media/FotoTrento.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2.5vh;
+}  
+
+.dati {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.dati div {
+
+  text-align: center;
+}
+
+.dati h1 {
+
+  color: #e2457c;
+}
+
+.descrizione_rotaract {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.descrizione {
+  
+  width: 35vh;
+  height: 40vh;
+}
+
+.descrizione h4 {
+  
+  line-height: 150%;
+}
+
+.button_chiSiamo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 5vh;
+  background-color: #e2457c;
+  cursor: pointer;
+}
+
+.button_chiSiamo p {
+
+  color: white;
+}
+
+.foto_buonconsiglio {
+  width: 70vh;
+  height: 80vh;
+  background-image: url("../Media/FotoBuonconsiglio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer {
+    height: 10vh; 
+    width: 50vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+  }
+
+
+  /* ====================== EVENTI PAGE ====================== */
+
+  .titoloEventi {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+  }
+  
+  .paragrafoTesto{
+    text-align: center;
+    margin-left: 10vw; 
+    margin-right: 10vw;
+    
+  }
+  
+  .calendar_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .calendar_container iframe {
+    width: 90%;
+    height: 80vh;
+    border: 2px solid #e2457c;
+    border-radius: 10px;
+  }
+  
