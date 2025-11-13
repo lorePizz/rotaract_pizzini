@@ -79,6 +79,14 @@
     background-repeat: no-repeat;
   }
   
+  .titoloService {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+  }
+  
   #pService{
     text-align: center;
     align-items: center;

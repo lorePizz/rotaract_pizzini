@@ -9,8 +9,7 @@ body {
   margin: 10px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fafafa;
-  color: #333;
+ 
 }
 
 h1 { margin: 0; font-size: 3.5rem; text-align: center; color: #e2457c; }
@@ -43,12 +42,13 @@ header, main, footer { width: 100%; }
   background-color: #222;
   color: #fff;
 }
-#titoloChiSiamo {
-  margin: 2rem 0;
+
+.titoloChiSiamo {
   color: #e2457c;
-  text-decoration: underline;
   text-align: center;
   font-weight: bolder;
+  margin: 0;
+  font-size: 3 .5rem;
 }
 
 .flex {
