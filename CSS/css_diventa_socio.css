@@ -77,6 +77,28 @@ h1 {
     margin-bottom: 50px;
 }
 
+.titoloDiventaSocio {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+}
+
+.sottotitoli {
+    color: #e2457c;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 3 .5rem;
+  }
+
+.paragrafoDiventaSocio {
+    text-align: center;
+    margin-left: 10vw; 
+    margin-right: 10vw;
+}
+
 /* BOX MOTIVO */
 #motivobox {
     margin: 30px 0;
@@ -90,6 +112,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 /* BOTTONE MOTIVO */
