@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modifiche - Rotaract Club Trento</title>
     <link rel="stylesheet" href="../CSS/css_modifiche.css">
+    <script src="../JS/validazione_modifiche.js"></script>
 </head>
 
 <body>
+
     <h1>Gestione Contenuti</h1>
 
     <!-- Form per aggiungere Presidente -->
@@ -19,7 +21,7 @@
             <input type="text" name="nome" placeholder="Nome e Cognome" required>
 
             <label for="mandato">Mandato</label>
-            <input type="text" name="mandato" placeholder="AAAA-AAAA" required>
+            <input type="text" name="mandato" id="mandato" placeholder="AAAA-AAAA" required>
 
             <button type="submit">Aggiungi</button>
         </form>
@@ -36,13 +38,15 @@
             <input type="date" name="data" required>
 
             <label for="file">Percorso PDF</label>
-            <input type="text" name="file" placeholder="../PDF/bollettino.pdf" required>
+            <input type="text" name="file"  id="file" placeholder="../PDF/bollettino.pdf" required>
 
             <button type="submit">Aggiungi</button>
         </form>
     </div>
 
     <a class="back-link" href="../index.html">Torna al sito</a>
+    
+
 </body>
 
 </html>

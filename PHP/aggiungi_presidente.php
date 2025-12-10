@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mandato = $_POST["mandato"];
 
     $json = file_get_contents($percorso);
-    $dati = json_decode($json, true);
+    $dati = json_decode($json, true); 
 
     $dati["presidenti"][] = [
         "nome" => $nome,
