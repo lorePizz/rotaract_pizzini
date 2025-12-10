@@ -120,24 +120,27 @@
     </footer>
 
     <script>
+        // Prendo il file JSON dei bollettini
         fetch('../JSON/bollettini.json')
-        .then(response => response.json())
-        .then(data => {
-            const container = document.getElementById("listaBollettini");
+            .then(response => response.json()) // converto in oggetto JS
+            .then(data => {
+                const container = document.getElementById("listaBollettini"); // contenitore per le card
 
-            data.bollettini.forEach(b => {
-                const card = document.createElement("div");
-                card.classList.add("card");
-                card.innerHTML = `
-                    <h3>${b.titolo}</h3>
-                    <p>Data: ${b.data}</p>
-                    <a href="${b.file}" target="_blank">Apri</a> | 
-                    <a href="${b.file}" download>Scarica</a>
-                `;
-                container.appendChild(card);
+                // Creo una card per ogni bollettino
+                data.bollettini.forEach(b => {
+                    const card = document.createElement("div");
+                    card.classList.add("card"); // aggiungo la classe card
+                    card.innerHTML = `
+                        <h3>${b.titolo}</h3>
+                        <p>Data: ${b.data}</p>
+                        <a href="${b.file}" target="_blank">Apri</a> | 
+                        <a href="${b.file}" download>Scarica</a>
+                    `;
+                    container.appendChild(card); // inserisco la card nel contenitore
+                });
             });
-        });
     </script>
+
 
 </body>
 </html>

@@ -151,19 +151,19 @@
             <div class="presidenti-grid" id="listaPresidenti"></div>
 
             <script>
+                // Prendo il file JSON dei presidenti
                 fetch('../JSON/presidenti.json')
-                .then(response => response.json())
-                .then(data => {
-                    const lista = document.getElementById("listaPresidenti");
-                    data.presidenti.forEach(element => { // <- qui
-                        lista.innerHTML += `<div class="card"><h3>${element.nome}</h3><p>${element.mandato}</p></div>`;
+                    .then(response => response.json()) // converto in oggetto JS
+                    .then(data => {
+                        const lista = document.getElementById("listaPresidenti"); // contenitore
+
+                        // Creo una card per ogni presidente
+                        data.presidenti.forEach(element => {
+                            lista.innerHTML += `<div class="card"><h3>${element.nome}</h3><p>${element.mandato}</p></div>`;
+                        });
                     });
-                });
-
-
-
-
             </script>
+
         </section>
     </main>
 
