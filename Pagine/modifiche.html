@@ -30,7 +30,7 @@
     <!-- Form per aggiungere Bollettino -->
     <div class="form-container">
         <h3>Aggiungi Bollettino</h3>
-        <form action="../PHP/aggiungi_bollettini.php" method="post">
+        <form action="../PHP/aggiungi_bollettini.php" method="post" enctype="multipart/form-data">
             <label for="titolo">Titolo Bollettino</label>
             <input type="text" name="titolo" placeholder="Titolo del bollettino" required>
 
@@ -38,7 +38,7 @@
             <input type="date" name="data" required>
 
             <label for="file">Percorso PDF</label>
-            <input type="text" name="file"  id="file" placeholder="../PDF/bollettino.pdf" required>
+            <input type="file" name="file" accept="application/pdf" required><br>
 
             <button type="submit">Aggiungi</button>
         </form>
