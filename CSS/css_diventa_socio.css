@@ -157,3 +157,64 @@ footer {
     background: #f4f4f4;
     color: #666;
 }
+
+/* --- FORM DIVENTA SOCIO --- */
+.contact-section.contact-diventa-socio {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff1f7;
+    border-left: 5px solid #e2457c;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contact-section.contact-diventa-socio h2 {
+    text-align: center;
+    color: #e2457c;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #e2457c;
+}
+
+.invia-btn {
+    background-color: #e2457c;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.invia-btn:hover {
+    background-color: #c73b6d;
+}
