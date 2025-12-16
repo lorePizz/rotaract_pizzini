@@ -85,15 +85,53 @@
             <button id="bottoneMotivo" onclick="generaMotivo()">Dammi un buon motivo!</button>
         </div>
 
-      
-        <div class="section" style="text-align:center;">
-            <h3 class="sottotitoli" >Pronto a iniziare?</h2>
-            <p>Compila il form di contatto e ti scriveremo per conoscerci dal vivo!</p>
+    </div>
 
-            <a href="contattaci.html" class="btn-large">Compila il modulo di adesione</a>
+    <section class="contact-section contact-diventa-socio">
+    <h2>Compila il form per diventare socio</h2>
+
+    <form action="mailto:mohammed.elgouraini@buonarroti.tn.it" method="post" enctype="text/plain" class="contact-form">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="Nome" required>
+
+    <label for="cognome">Cognome</label>
+    <input type="text" id="cognome" name="Cognome" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="Email" required>
+
+    <label for="eta">Età</label>
+    <input type="number" id="eta" name="Età" min="18" max="90" required>
+
+    <label for="occupazione">Occupazione / Studio</label>
+    <input type="text" id="occupazione" name="Occupazione">
+
+    <label for="interessi">Interessi / Skills</label>
+    <input type="text" id="interessi" name="Interessi">
+
+    <label for="cv">CV</label>
+    <p style="font-size: 0.9rem; color: #e2457c;">
+        Nota bene: Allegare il CV direttamente nella mail oppure inserire il link al documento online.
+    </p>
+    <input type="text" id="cv" name="CV" placeholder="https://link-al-cv.com">
+
+    <label for="messaggio">Motivazione</label>
+    <textarea id="messaggio" name="Messaggio" rows="5" placeholder="Scrivi perché vuoi entrare nel Rotaract" required></textarea>
+
+    <button type="submit" class="invia-btn">✉️ INVIA</button>
+</form>
+
+</section>
+
+<br><br>
+
+<div class="section" style="text-align:center;">
+            <h3 class="sottotitoli" >Maggiori Informazioni?</h2>
+            <br><br>
+            <a href="contattaci.html" class="btn-large">Compila il form di contattaci</a>
         </div>
 
-    </div>
+
 
     <footer>
         <hr class="divider">
@@ -129,7 +167,7 @@
                 <span>|</span>
                 <a href="#">Cookie Policy</a>
                 <span>|</span>
-                <span>Realizzato da **ITT Buonarroti**</span>
+                <span>Realizzato da **ITT Buonarroti 5DS**</span>
             </div>
         </div>
 
